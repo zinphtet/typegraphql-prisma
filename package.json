@@ -1,0 +1,32 @@
+{
+  "name": "typegraphql-prisma-crud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --no-notify --respawn --transpile-only src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^5.15.1",
+    "apollo-server": "^3.13.0",
+    "class-validator": "^0.14.1",
+    "graphql-fields": "^2.0.3",
+    "graphql-type-json": "^0.3.2",
+    "mongodb": "^6.7.0",
+    "reflect-metadata": "^0.2.2",
+    "type-graphql": "^2.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@types/graphql-fields": "^1.3.9",
+    "@types/node": "^20.14.8",
+    "@types/ws": "^8.5.10",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typegraphql-prisma": "^0.27.2",
+    "typescript": "^5.5.2"
+  }
+}
